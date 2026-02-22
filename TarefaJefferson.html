@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <script src="tarefajefferson.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Bootstrap</title>
+    <link rel="stylesheet" href="tarefajefferson.css">
+</head>
+<body>
+
+
+    <nav class="navbar">
+        <div class="logo">Site</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            
+            
+            <li class="dropdown">
+                <a href="#">Serviços ▾</a>  
+                <ul class="dropdown-menu">
+                    <li><a href="#">Dropdown 1</a></li>
+                    <li><a href="#">Dropdown 2</a></li>
+                    <li><a href="#">Dropdown 3</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#">Contato</a></li>
+        </ul>
+    </nav>
+
+    <section class="content">
+        <h1>Site básico com a ajuda de Bootstrap</h1>
+        <p>Este é um site com HTML, CSS e JavaScript básicos.</p>
+    </section>
+
+    
+    <section class="carousel">
+        <div class="slides">
+            <img src="https://imgs.search.brave.com/OIeZF6UPxtCYBwbTb2F7FSUtZqyA2K_RZ1GP0YhslW0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvZnVu/bnktZG9ncy1waWN0/dXJlcy1hcHpuZjA3/ZHpmeHJxY29iLmpw/Zw" class="slide active">
+            <img src="https://imgs.search.brave.com/euqG_GdqWkRWuUksm8ivt9f6fT-HF7-MVkDJPkjVDY0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvZnVu/bnktZG9ncy1waWN0/dXJlcy1lMjFkZmRz/cGd6Nm5kcXcwLmpw/Zw" class="slide">
+            <img src="https://imgs.search.brave.com/ksyD6vEEp5BqjjkbCFxhLuvfw-1BnS1NNvQUusUTsB0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTEy/MDc4Mjg2L3Bob3Rv/L3ZlcnktaGFwcHkt/Y29yZ2kuanBnP3M9/NjEyeDYxMiZ3PTAm/az0yMCZjPVNGVEl2/ZC1kMEY0Z3h4WTlP/Ty1VODg1VDliN3Yt/dUhkamV0LWw1QlE4/ckk9" class="slide">
+        </div>
+
+        <button class="prev" onclick="mudarSlide(-1)">❮</button>
+        <button class="next" onclick="mudarSlide(1)">❯</button>
+    </section>
+
+    
+    <footer>
+        <p>© 2026 Site - Todos os direitos reservados</p>
+    </footer>
+
+</body>
+</html>
